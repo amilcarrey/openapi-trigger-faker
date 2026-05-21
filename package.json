@@ -1,0 +1,11 @@
+{
+  "name": "openapi-trigger-faker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Synthetic OpenAPI spec + mutation scripts to drive cross-repo SDK regen.",
+  "scripts": {
+    "mutate": "node scripts/mutate.mjs",
+    "validate": "node -e \"JSON.parse(require('fs').readFileSync('openapi.json','utf8')); console.log('ok')\""
+  }
+}
