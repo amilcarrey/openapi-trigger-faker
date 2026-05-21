@@ -130,6 +130,28 @@
           }
         }
       }
+    },
+    "/v1/cogs": {
+      "get": {
+        "operationId": "listCogs",
+        "summary": "Auto-added listCogs",
+        "tags": [
+          "cogs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
