@@ -65,40 +65,6 @@
         }
       }
     },
-    "/v1/items/{id}": {
-      "get": {
-        "operationId": "getItem",
-        "summary": "Get item by id",
-        "tags": [
-          "items"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Item"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found"
-          }
-        }
-      }
-    },
     "/v1/widgets": {
       "get": {
         "operationId": "listWidgets",
