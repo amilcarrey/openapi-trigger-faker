@@ -152,6 +152,28 @@
           }
         }
       }
+    },
+    "/v1/sprockets-v2": {
+      "get": {
+        "operationId": "listSprocketsV2",
+        "summary": "Auto-added listSprocketsV2",
+        "tags": [
+          "sprockets"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
