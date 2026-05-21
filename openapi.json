@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Fake Earn API",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "Synthetic OpenAPI spec for cross-repo regen testing. Mutate via scripts/mutate.mjs."
   },
   "servers": [
