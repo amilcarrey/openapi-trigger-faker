@@ -14,7 +14,7 @@
   "paths": {
     "/v1/items": {
       "get": {
-        "operationId": "listItems",
+        "operationId": "listAllItems",
         "summary": "List items",
         "tags": [
           "items"
