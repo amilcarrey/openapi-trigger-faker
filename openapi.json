@@ -108,6 +108,28 @@
           }
         }
       }
+    },
+    "/v1/gizmos": {
+      "get": {
+        "operationId": "listGizmos",
+        "summary": "Auto-added listGizmos",
+        "tags": [
+          "gizmos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
