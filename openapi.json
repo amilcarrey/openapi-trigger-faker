@@ -87,28 +87,6 @@
         }
       }
     },
-    "/v1/sprockets": {
-      "get": {
-        "operationId": "listSprockets",
-        "summary": "Auto-added listSprockets",
-        "tags": [
-          "sprockets"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/v1/gizmos": {
       "get": {
         "operationId": "listGizmos",
