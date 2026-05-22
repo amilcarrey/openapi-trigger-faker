@@ -14,7 +14,7 @@
   "paths": {
     "/v1/items": {
       "get": {
-        "operationId": "listAllItems",
+        "operationId": "turtleAmazing",
         "summary": "List items",
         "tags": [
           "items"
