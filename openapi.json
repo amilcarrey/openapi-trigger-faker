@@ -65,28 +65,6 @@
         }
       }
     },
-    "/v1/widgets": {
-      "get": {
-        "operationId": "listWidgets",
-        "summary": "Auto-added listWidgets",
-        "tags": [
-          "widgets"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/v1/gizmos": {
       "get": {
         "operationId": "listGizmos",
